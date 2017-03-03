@@ -1,3 +1,4 @@
+<!doctype html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
@@ -16,10 +17,6 @@ h1,h2,h3,h4,h5,h6{
 	font-size: 16px;
 	margin: 0 0 10px 10px;
 }
-#wrapper {
-  margin: 0 30px 0 30px;
-  text-align:left;
-}
 .profile {
 	display: inline-block;
 	vertical-align: middle;
@@ -27,15 +24,20 @@ h1,h2,h3,h4,h5,h6{
 .profile.image{
 	width: 180px;
 	height: 180px;
-	border-radius: 20px;
-	margin-top: 20px;
+	border-radius: 10px;
+	margin-top: 10px;
 }
 .profile.detail {
-	margin-left: 20px;
+	margin-left: 15px;
 }
 .container {
 	padding: 1px;
 	margin-bottom: 1px;
+}
+.line {
+	width:100%;
+	height:1px;
+	background:#bbb;
 }
 </style>
 
@@ -44,10 +46,8 @@ h1,h2,h3,h4,h5,h6{
 
 </head>
 <body>
-<div id="wrapper">
 
 <div class="container">
-
 	<img class="profile image" src="images/profile.jpg" alt="@ Yellow stone national park">
 	<div class="profile detail">
 		<h3 style="color:#1D4195;"> <b> Hongjun Jang </b> </h3>
@@ -65,8 +65,7 @@ h1,h2,h3,h4,h5,h6{
 </div>
 
 <div id="education" class="container">
-
-	<h3 style="color:#1D4195;font-family:Consolas"><b>Education</b></h3>
+	<h3 style="color:#1D4195;font-family:Consolas"><b>Education</b><div class="line"></div></h3>
 	<ul>
 		<li class="li-item">2013 Mar. ~ : Korea Univeristy, Seoul, South Korea (B.S. Computer Science) <br>
 		<ul>
@@ -79,7 +78,7 @@ h1,h2,h3,h4,h5,h6{
 
 <div id="interest" class="container">
 
-	<h3 style="color:#1D4195;font-family:Consolas"><b>Interests</b></h3>
+	<h3 style="color:#1D4195;font-family:Consolas"><b>Interests</b><div class="line"></div></h3>
 	<ul>
 	<li class="li-item">Academic Interests <br>
 		<ul>
@@ -98,7 +97,7 @@ h1,h2,h3,h4,h5,h6{
 </div>
 
 <div id="teaching" class="container">
-	<h3 style="color:#1D4195;font-family:Consolas"><b>Teaching</b></h3>
+	<h3 style="color:#1D4195;font-family:Consolas"><b>Teaching</b><div class="line"></div></h3>
 	<ul>
 	<li class="li-item">
 	Samsung Code Mentoring Instructor, 2015 - 2017.
@@ -116,7 +115,7 @@ h1,h2,h3,h4,h5,h6{
 </div>
 
 <div id="award" class="container">
-	<h3 style="color:#1D4195;font-family:Consolas"><b>Awards and Honors</b></h3>
+	<h3 style="color:#1D4195;font-family:Consolas"><b>Awards and Honors</b><div class="line"></div></h3>
 	<ul>
 	<li class="li-item">Korea Olympiad in Informatics(KOI), Silver Medal, 2009</li>
 	<li class="li-item">Korea University Software Olympiad, 1st place(KU President's Award), 2013</li>
@@ -133,7 +132,7 @@ h1,h2,h3,h4,h5,h6{
 </div>
 
 <div id="work" class="container">
-	<h3 style="color:#1D4195;font-family:Consolas"><b>Work Experience</b></h3>
+	<h3 style="color:#1D4195;font-family:Consolas"><b>Work Experience</b><div class="line"></div></h3>
 	<ul>
 	<li class="li-item"><a href="http://www.ani-park.com/english/">AniPark</a>, Server Programmer, 2014 </li>
 	<li class="li-item"><a href="http://www.samsung.com/us/aboutsamsung/">Samsung Electronics</a> Software R&D Center, Software Engineer, 2016
@@ -146,7 +145,7 @@ h1,h2,h3,h4,h5,h6{
 </div>
 
 <div id="skill" class="container">
-	<h3 style="color:#1D4195;font-family:Consolas"><b>Skills</b></h3>
+	<h3 style="color:#1D4195;font-family:Consolas"><b>Skills</b><div class="line"></div></h3>
 	<ul>
 	<li class="li-item">
 	C, C++, Python, Java</br>
@@ -155,7 +154,7 @@ h1,h2,h3,h4,h5,h6{
 </div>
 
 <div id="presentation" class="container">
-	<h3 style="color:#1D4195;font-family:Consolas"><b>Presentation</b></h3>
+	<h3 style="color:#1D4195;font-family:Consolas"><b>Presentation</b><div class="line"></div></h3>
 	<ul>
 	<li class="li-item">
 		2017.2.11, "Teamwork in Programming Contests", Samsung Electronics Software R&D Center, Korea <a href="Teamwork_in_Programming_Contests.pdf">[Slides]</a>
