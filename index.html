@@ -46,10 +46,15 @@ h1,h2,h3,h4,h5,h6 {
 	background:#bbb;
 }
 </style>
-
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script>
+    function fnMove(seq){
+        var offset = $("#" + seq).offset();
+        $('html, body').animate({scrollTop : offset.top}, 200);
+    }
+</script>
 </head>
 <body>
-
 <div class="container">
 	<img class="profile image" src="images/profile3.jpeg">
 	<div class="profile detail">
@@ -62,11 +67,10 @@ h1,h2,h3,h4,h5,h6 {
 			<a href="http://github.com/hongjun7"> <img src="images/GitHub-Mark-32px.png">@hongjun7</a> &nbsp;&nbsp;
 		</p>
 	</div>
-
 </div>
 
 <div id="education" class="container">
-	<h3>Education<div class="line"></div></h3>
+	<h3><a style="cursor:pointer" onclick="fnMove('education')">Education</a><div class="line"></div></h3>
 	<ul>
 		<li class="li-item">2013 Mar. - Current : Korea Univeristy, Seoul, South Korea (B.S. Computer Science) <br>
 		<ul>
@@ -78,8 +82,7 @@ h1,h2,h3,h4,h5,h6 {
 </div>
 
 <div id="interest" class="container">
-
-	<h3>Interests<div class="line"></div></h3>
+	<h3><a style="cursor:pointer" onclick="fnMove('interest')">Interests</a><div class="line"></div></h3>
 	<ul>
 	<li class="li-item">Academic Interests <br>
 		<ul>
@@ -102,7 +105,7 @@ h1,h2,h3,h4,h5,h6 {
 </div>
 
 <div id="teaching" class="container">
-	<h3>Teaching<div class="line"></div></h3>
+	<h3><a style="cursor:pointer" onclick="fnMove('teaching')">Teaching</a><div class="line"></div></h3>
 	<ul>
 	<li class="li-item">
 	Samsung Code Mentoring Instructor, 2015 - 2017.
@@ -120,7 +123,7 @@ h1,h2,h3,h4,h5,h6 {
 </div>
 
 <div id="award" class="container">
-	<h3>Awards and Honors<div class="line"></div></h3>
+	<h3><a style="cursor:pointer" onclick="fnMove('award')">Awards and Honors</a><div class="line"></div></h3>
 	<ul>
 	<li class="li-item">Korea Olympiad in Informatics(KOI), Silver Medal, 2009</li>
 	<li class="li-item">Korea University Software Olympiad, 1st place(KU President's Award), 2013</li>
@@ -138,7 +141,7 @@ h1,h2,h3,h4,h5,h6 {
 </div>
 
 <div id="work" class="container">
-	<h3>Work Experience<div class="line"></div></h3>
+	<h3><a style="cursor:pointer" onclick="fnMove('work')">Work Experience</a><div class="line"></div></h3>
 	<ul>
 	<li class="li-item"><a href="http://www.ani-park.com/english/">AniPark</a>, Server Programmer, 2014 </li>
 	<li class="li-item"><a href="http://www.samsung.com/us/aboutsamsung/">Samsung Electronics</a> Software R&D Center, Software Engineer, 2016
@@ -155,14 +158,14 @@ h1,h2,h3,h4,h5,h6 {
 </div>
 
 <div id="skill" class="container">
-	<h3>Skills<div class="line"></div></h3>
+	<h3><a style="cursor:pointer" onclick="fnMove('skill')">Skills</a><div class="line"></div></h3>
 	<ul>
 	<li class="li-item">C, C++, Python, Java, HTML, CSS, Javascript</li>
 	</ul>
 </div>
 
 <div id="presentation" class="container">
-	<h3>Presentation<div class="line"></div></h3>
+	<h3><a style="cursor:pointer" onclick="fnMove('presentation')">Presentation</a><div class="line"></div></h3>
 	<ul>
 	<li class="li-item">
 		2017.2.11, "Teamwork in Programming Contests", Samsung Electronics Software R&D Center, Korea <a href="Teamwork_in_Programming_Contests.pdf">[Slides]</a>
