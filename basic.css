@@ -21,10 +21,12 @@ h1,h2,h3,h4,h5,h6 {
 .profile.image{
 	width: 145px;
 	height: 190px;
+	border-radius: 5px;
 	margin-top: 5px;
 }
 .profile.detail {
 	margin-left: 10px;
+	
 }
 .container {
 	padding: 1px;
