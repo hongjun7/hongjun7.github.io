@@ -89,7 +89,7 @@ ul {
 }
 
 .subject {
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .content {
@@ -110,7 +110,7 @@ ul {
     background: #555555;
     /* see body, #main */
     position: relative;
-    padding: 60px 0 45px 0;
+    padding: 60px 0 55px 0;
 }
 
 /* custom */
@@ -145,6 +145,6 @@ ul {
     z-index: 1;
 }
 
-.space {
+.pagefooter-emptyspace {
     margin-top: 100px;
 }
