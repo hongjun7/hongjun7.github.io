@@ -32,7 +32,7 @@ h1,h3,h4,h5,h6 {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 h2 {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 ul {
@@ -110,13 +110,15 @@ ul {
     background: #555555;
     /* see body, #main */
     position: relative;
-    padding: 60px 0 55px 0;
+    padding: 70px 0 60px 0;
 }
 
 /* custom */
 .footercontent {
     text-align: center;
     color: #dddddd;
+    font-size: 20px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .page.section {
