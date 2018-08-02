@@ -43,7 +43,7 @@ a.footer:active {
 }
 
 a.footer:hover {
-    color: #222222;
+    color: #111111;
     text-decoration: none;
 }
 
@@ -130,7 +130,7 @@ ul {
     background: #555555;
     /* see body, #main */
     position: relative;
-    padding: 70px 0 60px 0;
+    padding: 80px 0 80px 0;
 }
 
 /* custom */
