@@ -28,22 +28,22 @@ a:hover {
 }
 
 a.footer:link {
-    color: white;
+    color: #bbbbbb;
     text-decoration: none;
 }
 
 a.footer:visited {
-    color: white;
+    color: #bbbbbb;
     text-decoration: none;
 }
 
 a.footer:active {
-    color: white;
+    color: #bbbbbb;
     text-decoration: none;
 }
 
 a.footer:hover {
-    color: #111111;
+    color: white;
     text-decoration: none;
 }
 
@@ -130,7 +130,7 @@ ul {
     background: #555555;
     /* see body, #main */
     position: relative;
-    padding: 100px 0 180px 0;
+    padding: 100px 0 100px 0;
 }
 
 /* custom */
@@ -149,6 +149,17 @@ ul {
 
 .section-container {
     padding: 0 10%;
+}
+
+.section-wrap {
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+}
+
+.section-block {
+    width: 100px;
+    display: inline-block;
 }
 
 .pagefooter:before {
