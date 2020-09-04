@@ -1,5 +1,5 @@
 .section {
-    padding: 30px 0;
+    padding: 20px 0;
     position: relative;
 }
 
@@ -71,8 +71,8 @@ ul {
     margin: -3px 0 10px 0px;
     padding-left: 10px;
     font-size: 16px;
-    border-left: 4px solid #61A8DC;
-    border-radius: 2px;
+    border-left: 2px solid #61A8DC;
+    border-radius: 1px;
 }
 
 .div-item {
@@ -130,7 +130,7 @@ ul {
     background: #555555;
     /* see body, #main */
     position: relative;
-    padding: 100px 0 100px 0;
+    padding: 90px 0 90px 0;
 }
 
 /* custom */

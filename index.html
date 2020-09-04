@@ -25,22 +25,29 @@
         <div class="container">
             <h1> Hongjun Jang </h1>
             <p style="font-size:16px;">
-                Software Engineer<br>
-                <a href="https://research.samsung.com/">Samsung Research</a><br>
+                Software Engineer at <a href="https://research.samsung.com/">Samsung Research</a><br>
                 <i class="fa fa-envelope" style="padding-left:2px;"></i> hongjun.jang7 [at] gmail [dot] com<br>
             </p>
         </div>
 
         <div id="education" class="container">
-            <h3><a style="cursor:pointer" onclick="fnMove('education')">Education</a>
+            <h3>
+                <a style="cursor:pointer" onclick="fnMove('education')">Education</a>
                 <div class="line"></div>
             </h3>
-            <div class="edu_subject"> <i class="fa fa-graduation-cap"></i> B.S., <a href="http://www.korea.edu/mbshome/mbs/en/index.do">Korea Univeristy</a>, Seoul, Korea, Feb 2013 - July 2020 </div>
-            <div class="edu_content" style="padding-left:25px;"> Major in <a href="https://cs.korea.edu/cs_en/index.do">Computer Science and Engineering</a></div>
-            <div class="edu_content" style="padding-left:25px;"> Graduated with Magna Cum Laude </div>
+            <div class="edu_subject"> B.S., <a href="http://www.korea.edu/mbshome/mbs/en/index.do">Korea Univeristy</a>, Seoul, Korea, Feb 2013 - July 2020 </div>
+            <ul>
+                <li class="li-item">
+                    <div class="content"> Major in <a href="https://cs.korea.edu/cs_en/index.do">Computer Science and Engineering</a> </div>
+                    <div class="content"> Graduated with Magna Cum Laude </div>
+                    <div class="content"> Left for mandatory military service, May 2018 - Jan 2020 </div>
+                </li>
+
+            </ul>
         </div>
         <div id="interest" class="container">
-            <h3><a style="cursor:pointer" onclick="fnMove('interest')">Interests</a>
+            <h3>
+                <a style="cursor:pointer" onclick="fnMove('interest')">Interests</a>
                 <div class="line"></div>
             </h3>
             <ul>
@@ -48,13 +55,69 @@
                     <div class="cotent">Combinatorial & Convex Optimization, Algorithm Analysis</div>
                 </li>
                 <li class="li-item">
-                    <div class="cotent">Machine Learning, Deep Learning, Computer Vision</div>
+                    <div class="cotent">Machine Learning, Deep Learning, Reinforcement Learning</div>
+                </li>
+            </ul>
+        </div>
+
+        <div id="work" class="container">
+            <h3>
+                <a style="cursor:pointer" onclick="fnMove('work')">Work Experience</a>
+                <div class="line"></div>
+            </h3>
+            <ul>
+                <li class="li-item">
+                    <div class="subject">
+                        <a href="http://research.samsung.com/">Samsung Research</a>, Software Engineer, Aug 2020 - Present<br />
+                        <div class="content">
+                            <a href="https://research.samsung.com/next-generation-communications">Advanced Communications Research Center</a>, Advanced Solution Team, Network AI Part<br />
+                        </div>
+                    </div>
+                </li>
+                <li class="li-item">
+                    <div class="subject">
+                        Republic of Korea Army Cyber Operations Command, Software Engineer, May 2018 - Jan 2020
+                    </div>
+                    <div class="content">
+                        Developed an endpoint security solution for Republic of Korea Armed Forces military networks.<br />
+                        Designed and implemented the Windows clients in the solution.
+                    </div>
+                </li>
+                <li class="li-item">
+                    <div class="subject">
+                        Samsung Advanced Technology Training Institute, Competitive Programmer, 2017
+                    </div>
+                </li>
+                <li class="li-item">
+                    <div class="subject">
+                        Samsung Collegiate Programming Cup, Problem Setter, 2017
+                    </div>
+                </li>
+                <li class="li-item">
+                    <div class="subject">
+                        Kakao Code Festival, Problem Setter, 2017
+                    </div>
+                </li>
+                <li class="li-item">
+                    <div class="subject">
+                        <a href="http://research.samsung.com/">Samsung Research</a>, Software Engineer, 2016
+                    </div>
+                    <div class="content">
+                        <a href="https://research.samsung.com/artificial-intelligence">Artificial Intelligent Team</a><br />
+                        Project : Analysis and Optimization of the state-of-the-art Object Recognition Platforms(Fast R-CNN, YOLO)
+                    </div>
+                </li>
+                <li class="li-item">
+                    <div class="subject">
+                        <a href="http://www.ani-park.com/english/">AniPark</a>, Server Programmer, 2014
+                    </div>
                 </li>
             </ul>
         </div>
 
         <div id="teaching" class="container">
-            <h3><a style="cursor:pointer" onclick="fnMove('teaching')">Teaching</a>
+            <h3>
+                <a style="cursor:pointer" onclick="fnMove('teaching')">Teaching</a>
                 <div class="line"></div>
             </h3>
             <ul>
@@ -74,15 +137,16 @@
         </div>
 
         <div id="award" class="container">
-            <h3><a style="cursor:pointer" onclick="fnMove('award')">Awards and Honors</a>
+            <h3>
+                <a style="cursor:pointer" onclick="fnMove('award')">Awards and Honors</a>
                 <div class="line"></div>
             </h3>
-            <div class="strong"> Programming Contests </div>
             <ul>
+                <div class="strong"> Programming Contests </div>
                 <li class="li-item">
                     <div class="subject">
                         <a href="http://icpc.baylor.edu/">ACM International Collegiate Programming Contest(ACM-ICPC)</a>
-                        <br/>
+                        <br />
                     </div>
                     <div class="content">
                         Daejeon Regional 2013, 10th place(NHN Special Award) <br> Daejeon Regional 2016, 4th place(Minister of Science, ICT and Future Planning Award) <br> Ho Chi Minh City Regional 2017, 3rd prize
@@ -103,75 +167,37 @@
                 <li class="li-item">
                     <div class="subject">
                         Samsung Scholorship for Samsung Software Track, 2016 - 2017
-                        <br/>
+                        <br />
                     </div>
                     <div class="content">
-                        Full Scholarship for a total of 4 semesters, Granted by Samsung Electronics <br/>
-                    </div>
-                </li>
-        </div>
-
-        <div id="work" class="container">
-            <h3><a style="cursor:pointer" onclick="fnMove('work')">Work Experience</a>
-                <div class="line"></div>
-            </h3>
-            <ul>
-                <li class="li-item">
-                    <div class="subject">
-                        <a href="http://www.ani-park.com/english/">AniPark</a>, Server Programmer, 2014
-                    </div>
-                </li>
-                <li class="li-item">
-                    <div class="subject">
-                        <a href="http://research.samsung.com/">Samsung Research</a>, Software Engineer, 2016
-                    </div>
-                    <div class="content">
-                        Artificial Intelligent Team
-                        <br> Project : Analysis and Optimization of the state-of-the-art Object Recognition Platforms(Fast R-CNN, YOLO)
-                    </div>
-                </li>
-                <li class="li-item">
-                    <div class="subject">
-                        Samsung Advanced Technology Training Institute, Competitive Programmer, 2017
-                    </div>
-                </li>
-                <li class="li-item">
-                    <div class="subject">
-                        Samsung Collegiate Programming Cup, Problem Setter, 2017
-                    </div>
-                </li>
-                <li class="li-item">
-                    <div class="subject">
-                        Kakao Code Festival, Problem Setter, 2017
-                    </div>
-                </li>
-                <li class="li-item">
-                    <div class="subject">
-                        Republic of Korea Army Cyber Operations Command, Software Engineer, May 2018 - Jan 2020
-                    </div>
-                    <div class="content">
-                        Developed an endpoint security solution for Republic of Korea Armed Forces military networks.<br>
-                        Designed and implemented the Windows clients in the solution.
+                        Full Scholarship for a total of 4 semesters, Granted by Samsung Electronics <br />
                     </div>
                 </li>
             </ul>
         </div>
 
         <div id="skill" class="container">
-            <h3><a style="cursor:pointer" onclick="fnMove('skill')">Skills</a>
+            <h3>
+                <a style="cursor:pointer" onclick="fnMove('skill')">Skills</a>
                 <div class="line"></div>
             </h3>
             <ul>
                 <li class="li-item">
                     <div class="subject">
                         C/C++(C++11), Python(2.x and 3.x), C#(.NET 4.0), WPF(Windows Presentation Foundation), Java, HTML, CSS, Javascript
-                        <div>
+                    </div>
+                </li>
+                <li class="li-item">
+                    <div class="subject">
+                        Tensorflow 2(keras, Scikit-learn), PyTorch
+                    </div>
                 </li>
             </ul>
         </div>
 
         <div id="presentation" class="container">
-            <h3><a style="cursor:pointer" onclick="fnMove('presentation')">Presentation</a>
+            <h3>
+                <a style="cursor:pointer" onclick="fnMove('presentation')">Presentation</a>
                 <div class="line"></div>
             </h3>
             <ul>
