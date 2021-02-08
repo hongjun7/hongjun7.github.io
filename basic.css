@@ -62,21 +62,23 @@ ul {
 }
 
 .strong {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 5px;
     font-weight: bold;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .li-item {
     margin: -3px 0 10px 0px;
     padding-left: 10px;
-    font-size: 16px;
+    font-size: 17px;
     border-left: 2px solid #61A8DC;
     border-radius: 1px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .div-item {
-    font-size: 16px;
+    font-size: 17px;
     margin: 0 0 10px 10px;
 }
 
@@ -109,20 +111,21 @@ ul {
 }
 
 .subject {
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .content {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .edu_subject {
-    font-size: 16px;
+    font-size: 17px;
     padding-bottom: 5px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .edu_content {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 /* custom */
@@ -148,17 +151,17 @@ ul {
 }
 
 .section-container {
-    padding: 0 10%;
+    padding: 0 5%;
 }
 
 .section-wrap {
     margin: auto;    
     width: 100%;
-    max-width: 400px;
+    max-width: 600px;
 }
 
 .section-block {
-    width: 100px;
+    width: 95px;
     display: inline-block;
 }
 
