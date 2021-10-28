@@ -62,7 +62,7 @@ ul {
 }
 
 .strong {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 5px;
     font-weight: bold;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -71,14 +71,14 @@ ul {
 .li-item {
     margin: -3px 0 10px 0px;
     padding-left: 10px;
-    font-size: 17px;
+    font-size: 15px;
     border-left: 2px solid #61A8DC;
     border-radius: 1px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .div-item {
-    font-size: 17px;
+    font-size: 15px;
     margin: 0 0 10px 10px;
 }
 
@@ -111,15 +111,15 @@ ul {
 }
 
 .subject {
-    font-size: 17px;
-}
-
-.content {
     font-size: 15px;
 }
 
+.content {
+    font-size: 13px;
+}
+
 .edu_subject {
-    font-size: 17px;
+    font-size: 14px;
     padding-bottom: 5px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
