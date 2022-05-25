@@ -62,7 +62,7 @@ ul {
 }
 
 .strong {
-    font-size: 16px;
+    font-size: 13px;
     margin-bottom: 5px;
     font-weight: bold;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -71,14 +71,14 @@ ul {
 .li-item {
     margin: -3px 0 10px 0px;
     padding-left: 10px;
-    font-size: 15px;
+    font-size: 12px;
     border-left: 2px solid #61A8DC;
     border-radius: 1px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .div-item {
-    font-size: 15px;
+    font-size: 12px;
     margin: 0 0 10px 10px;
 }
 
@@ -111,21 +111,21 @@ ul {
 }
 
 .subject {
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .content {
-    font-size: 13px;
+    font-size: 10px;
 }
 
 .edu_subject {
-    font-size: 14px;
+    font-size: 11px;
     padding-bottom: 5px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .edu_content {
-    font-size: 15px;
+    font-size: 12px;
 }
 
 /* custom */
@@ -140,7 +140,7 @@ ul {
 .footercontent {
     text-align: center;
     color: #dddddd;
-    font-size: 20px;
+    font-size: 17px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
@@ -168,6 +168,7 @@ ul {
 .pagefooter:before {
     top: 0%;
     border: solid transparent;
+    color: #eee;
     content: " ";
     height: 0;
     width: 0;
