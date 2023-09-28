@@ -69,16 +69,14 @@ ul {
 }
 
 .li-item {
-    padding-left: 8px;
-    font-size: 8px;
-    border-left: 2px solid #61A8DC;
-    border-radius: 1px;
+    font-size: 11px;
+    margin-bottom: 2px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .div-item {
-    font-size: 12px;
-    margin: 0 0 5px 5px;
+    font-size: 11px;
+    margin: 0 0 0px 8px;
 }
 
 .profile {
@@ -115,12 +113,13 @@ ul {
 
 .content {
     font-size: 10px;
-    padding-bottom: 2.5px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .edu_subject {
     font-size: 10px;
-    padding-bottom: 5px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
@@ -133,7 +132,7 @@ ul {
     background: #555555;
     /* see body, #main */
     position: relative;
-    padding: 45px 0 45px 0;
+    padding: 90px 0 90px 0;
 }
 
 /* custom */
@@ -183,5 +182,5 @@ ul {
 }
 
 .pagefooter-emptyspace {
-    margin-top: 100px;
+    margin-top: 40px;
 }
