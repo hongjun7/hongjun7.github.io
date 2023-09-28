@@ -69,17 +69,15 @@ ul {
 }
 
 .li-item {
-    margin: -3px 0 10px 0px;
     padding-left: 10px;
-    font-size: 12px;
+    font-size: 11px;
     border-left: 2px solid #61A8DC;
-    border-radius: 1px;
+    border-radius: 2px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .div-item {
     font-size: 12px;
-    margin: 0 0 10px 10px;
 }
 
 .profile {
@@ -117,7 +115,6 @@ ul {
 .content {
     font-size: 10px;
     padding-bottom: 2.5px;
-    padding-top: 2.5px;
 }
 
 .edu_subject {
@@ -135,7 +132,7 @@ ul {
     background: #555555;
     /* see body, #main */
     position: relative;
-    padding: 90px 0 90px 0;
+    padding: 45px 0 45px 0;
 }
 
 /* custom */
