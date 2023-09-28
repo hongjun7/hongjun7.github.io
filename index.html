@@ -3,7 +3,7 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Hongjun Jang(hongjun-7) </title>
+    <title> Hongjun Jang </title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="basic.css">
@@ -25,8 +25,8 @@
         <div class="container">
             <h3> Hongjun Jang </h3>
             <p style="font-size:12px; font-family:'Trebuchet MS'">
-                Software Engineer at <a href="https://research.samsung.com/">Samsung Research</a><br>
-                <i class="fa fa-envelope" style="padding-left:2px;"></i> hongjun.jang7 [at] gmail [dot] com<br>
+                Research Engineer at <a href="https://research.samsung.com/">Samsung Research</a><br>
+                <i class="fa fa-envelope" style="padding-left:2px;"></i> h0ngjun.jang [at] samsung [dot] net<br>
             </p>
         </div>
 
@@ -39,27 +39,12 @@
             <ul>
                 <li class="li-item">
                     <div class="content"> Major in <a href="https://cs.korea.edu/en_cs/index.do">Computer Science and Engineering</a> </div>
-                    <div class="content"> Graduated with Cum Laude </div>
+                    <div class="content"> Graduated with Cum Laude  </div>
                     <div class="content"> Left for mandatory military service, May 2018 - Jan 2020 </div>
                 </li>
 
             </ul>
         </div>
-        <div id="interest" class="container">
-            <h4>
-                <a style="cursor:pointer" onclick="fnMove('interest')">Interests</a>
-                <div class="line"></div>
-            </h4>
-            <ul>
-                <li class="li-item">
-                    <div class="cotent">Combinatorial & Convex Optimization</div>
-                </li>
-                <li class="li-item">
-                    <div class="cotent">Machine Learning, Reinforcement Learning</div>
-                </li>
-            </ul>
-        </div>
-
         <div id="work" class="container">
             <h4>
                 <a style="cursor:pointer" onclick="fnMove('work')">Work Experience</a>
@@ -116,23 +101,22 @@
             </ul>
         </div>
 
-        <div id="teaching" class="container">
+        <div id="research" class="container">
             <h4>
-                <a style="cursor:pointer" onclick="fnMove('teaching')">Teaching</a>
+                <a style="cursor:pointer" onclick="fnMove('research')">Research</a>
                 <div class="line"></div>
             </h4>
             <ul>
                 <li class="li-item">
-                    <div class="subject">Samsung Code Mentoring Instructor, 2015 - 2017</div>
+                    <div class="subject"><div>
                 </li>
                 <li class="li-item">
-                    <div class="subject"><a href="http://www.ioinformatics.org/index.shtml">International Olympiad in Informatics (IOI)</a> Student Assistant Coach of the Korea team, 2016 </div>
+                    <div class="content">M Choi, K Kim, H Jang, H Woo, JS Pujol-Roig, Y Wang, H Yeon, S Choi, S Jang, "Cell On/Off Parameter Optimization for Saving Energy via Reinforcement Learning", <a href="https://ieeexplore.ieee.org/abstract/document/9682160"> 2021 IEEE Globecom Workshops (GC Wkshps) </a>
+                    </div>
                 </li>
                 <li class="li-item">
-                    <div class="subject"><a href="http://www.ioinformatics.org/index.shtml">International Olympiad in Informatics (IOI)</a> Training Camp in Korea, Coach, 2013 - 2017</div>
-                </li>
-                <li class="li-item">
-                    <div class="subject">Korea Olympiad in Informatics (KOI), Coach and Problem Setter, 2013 - 2017</div>
+                    <div class="content">M Choi, K Kim, H Jang, H Woo, S Jang, "Electronic device and operation method of electronic device for deciding cell on or off threshold based on traffic", <a href="https://patents.google.com/patent/US20230032030A1/en"> US Patent </a>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -143,7 +127,6 @@
                 <div class="line"></div>
             </h4>
             <ul>
-                <div class="strong"> Programming Contests </div>
                 <li class="li-item">
                     <div class="subject">
                         <a href="http://icpc.baylor.edu/">ACM International Collegiate Programming Contest(ACM-ICPC)</a>
@@ -164,7 +147,6 @@
                 <li class="li-item">
                     <div class="subject">Korea Olympiad in Informatics(KOI), Silver Medal, 2009<div>
                 </li>
-                <div class="strong"> Scolarships </div>
                 <li class="li-item">
                     <div class="subject">
                         Samsung Scholorship for Samsung Software Track, 2016 - 2017
@@ -178,6 +160,25 @@
                 <li class="li-item">Samsung Scholorship for Prominent Graduation from Daegu Science High School, 2013</li>
             </ul>
         </div>
+        
+        <div id="teaching" class="container">
+            <h4>
+                <a style="cursor:pointer" onclick="fnMove('teaching')">Teaching</a>
+                <div class="line"></div>
+            </h4>
+            <ul>
+                <li class="li-item">
+                    <div class="content">Samsung Code Mentoring Instructor, 2015 - 2017</div>
+                </li>
+                <li class="li-item">
+                    <div class="content"><a href="http://www.ioinformatics.org/index.shtml">International Olympiad in Informatics (IOI)</a> Student Assistant Coach of the Korea team, 2016 </div>
+                    <div class="content"><a href="http://www.ioinformatics.org/index.shtml">International Olympiad in Informatics (IOI)</a> Training Camp in Korea, Coach, 2013 - 2017</div>
+                </li>
+                <li class="li-item">
+                    <div class="content">Korea Olympiad in Informatics (KOI), Coach and Problem Setter, 2013 - 2017</div>
+                </li>
+            </ul>
+        </div>
 
         <div id="skill" class="container">
             <h4>
@@ -186,12 +187,12 @@
             </h4>
             <ul>
                 <li class="li-item">
-                    <div class="subject">
+                    <div class="content">
                         C/C++(C++11), Python(2.x and 3.x), C#(.NET 4.0), WPF, Java, HTML5, CSS, Javascript
                     </div>
                 </li>
                 <li class="li-item">
-                    <div class="subject">
+                    <div class="content">
                         Tensorflow 2(keras, Scikit-learn), PyTorch
                     </div>
                 </li>
@@ -205,7 +206,9 @@
             </h4>
             <ul>
                 <li class="li-item">
-                    2017.2.11, "Teamwork in Programming Contests", Samsung Research, Korea <a href="Teamwork_in_Programming_Contests.pdf">[Slides]</a>
+                    <div class="content">
+                        2017.2.11, "Teamwork in Programming Contests", Samsung Research, Korea <a href="Teamwork_in_Programming_Contests.pdf">[Slides]</a>
+                    </div>
                 </li>
             </ul>
         </div>
