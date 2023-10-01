@@ -49,10 +49,10 @@ a.footer:hover {
 
 h2,h3,h4,h5,h6 {
     color: #3479d3;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 h1 {
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 h4 {
     margin-bottom: 3px;
@@ -68,13 +68,13 @@ ul {
     font-size: 13px;
     margin-bottom: 5px;
     font-weight: bold;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .li-item {
     font-size: 11px;
     margin-bottom: 2px;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .div-item {
@@ -118,12 +118,12 @@ ul {
     font-size: 10px;
     padding-bottom: 3px;
     padding-top: 3px;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .edu_subject {
     font-size: 10px;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .edu_content {
@@ -143,7 +143,7 @@ ul {
     text-align: center;
     color: #dddddd;
     font-size: 17px;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .page.section {
