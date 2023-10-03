@@ -50,9 +50,11 @@ a.footer:hover {
 h2,h3,h4,h5,h6 {
     color: #3479d3;
     font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 h1 {
     font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 h4 {
     margin-bottom: 3px;
@@ -144,6 +146,7 @@ ul {
     color: #dddddd;
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
 .page.section {
