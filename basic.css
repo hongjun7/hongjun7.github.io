@@ -67,20 +67,20 @@ ul {
 }
 
 .strong {
-    font-size: min(13px, 2vmin);
+    font-size: min(13px, 3vmin);
     margin-bottom: 5px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
 
 .li-item {
-    font-size: min(13px, 2vmin);
+    font-size: min(13px, 3vmin);
     margin-bottom: 2px;
     font-family: 'Roboto', sans-serif;
 }
 
 .div-item {
-    font-size: 11px;
+    font-size: min(11px, 2.2vmin);
     margin: 0 0 0px 8px;
 }
 
@@ -112,24 +112,11 @@ ul {
     background: #bbb;
 }
 
-.subject {
-    font-size: 12px;
-}
-
 .content {
-    font-size: min(14px, 2vmin);
+    font-size: min(14px, 3vmin);
     padding-bottom: 3px;
     padding-top: 3px;
     font-family: 'Roboto', sans-serif;
-}
-
-.edu_subject {
-    font-size: 10px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.edu_content {
-    font-size: 12px;
 }
 
 /* custom */
