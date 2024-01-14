@@ -67,14 +67,14 @@ ul {
 }
 
 .strong {
-    font-size: 13px;
+    font-size: min(13px, 2vmin);
     margin-bottom: 5px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
 
 .li-item {
-    font-size: 13px;
+    font-size: min(13px, 2vmin);
     margin-bottom: 2px;
     font-family: 'Roboto', sans-serif;
 }
@@ -117,7 +117,7 @@ ul {
 }
 
 .content {
-    font-size: 14px;
+    font-size: min(14px, 2vmin);
     padding-bottom: 3px;
     padding-top: 3px;
     font-family: 'Roboto', sans-serif;
