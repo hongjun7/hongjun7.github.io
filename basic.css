@@ -115,7 +115,16 @@ ul {
 .content {
     font-size: min(14px, 3vmin);
     padding-bottom: 3px;
+    font-weight: 600;
     padding-top: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.subcontent {
+    font-size: min(14px, 3vmin);
+    padding-bottom: 3px;
+    font-weight: 300;
+    padding-top: -3px;
     font-family: 'Roboto', sans-serif;
 }
 
