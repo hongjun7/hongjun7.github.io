@@ -4,7 +4,12 @@
 }
 
 .color-2 {
-    background: #ffffff;
+    background: white;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
 }
 
 a:link {
@@ -23,7 +28,7 @@ a:active {
 }
 
 a:hover {
-    color: #134aa3;
+    color: #333333;
     text-decoration: none;
 }
 
@@ -48,7 +53,7 @@ a.footer:hover {
 }
 
 h2,h3,h4,h5,h6 {
-    color: #3479d3;
+    color: black;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
@@ -67,20 +72,20 @@ ul {
 }
 
 .strong {
-    font-size: min(13px, 3vmin);
+    font-size: min(15px, 4vmin);
     margin-bottom: 5px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
 
 .li-item {
-    font-size: min(13px, 3vmin);
+    font-size: min(15px, 4vmin);
     margin-bottom: 2px;
     font-family: 'Roboto', sans-serif;
 }
 
 .div-item {
-    font-size: min(11px, 2.2vmin);
+    font-size: min(15px, 4vmin);
     margin: 0 0 0px 8px;
 }
 
@@ -113,15 +118,15 @@ ul {
 }
 
 .content {
-    font-size: min(14px, 3vmin);
+    font-size: min(15px, 4vmin);
     padding-bottom: 3px;
-    font-weight: 600;
+    font-weight: 400;
     padding-top: 3px;
     font-family: 'Roboto', sans-serif;
 }
 
 .subcontent {
-    font-size: min(14px, 3vmin);
+    font-size: min(13px, 3.3vmin);
     padding-bottom: 3px;
     font-weight: 300;
     padding-top: -3px;
