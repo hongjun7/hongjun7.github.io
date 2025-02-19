@@ -72,20 +72,20 @@ ul {
 }
 
 .strong {
-    font-size: min(15px, 4vmin);
+    font-size: 15px;
     margin-bottom: 5px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
 
 .li-item {
-    font-size: min(15px, 4vmin);
+    font-size: 15px;
     margin-bottom: 2px;
     font-family: 'Roboto', sans-serif;
 }
 
 .div-item {
-    font-size: min(15px, 4vmin);
+    font-size: 15px;
     margin: 0 0 0px 8px;
 }
 
@@ -103,7 +103,6 @@ ul {
 
 .profile.detail {
     margin-left: 10px;
-
 }
 
 .container {
@@ -118,7 +117,7 @@ ul {
 }
 
 .content {
-    font-size: min(15px, 4vmin);
+    font-size: 15px;
     padding-bottom: 3px;
     font-weight: 400;
     padding-top: 3px;
@@ -126,7 +125,7 @@ ul {
 }
 
 .subcontent {
-    font-size: min(13px, 3.3vmin);
+    font-size: 13px;
     padding-bottom: 3px;
     font-weight: 300;
     padding-top: -3px;
@@ -136,7 +135,6 @@ ul {
 /* custom */
 .pagefooter {
     background: #555555;
-    /* see body, #main */
     position: relative;
     padding: 90px 0 90px 0;
 }
@@ -152,7 +150,6 @@ ul {
 
 .page.section {
     padding: 30px 0;
-    /* override */
     position: relative;
 }
 
@@ -173,4 +170,19 @@ ul {
 
 .pagefooter-emptyspace {
     margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .strong, .li-item, .div-item, .content {
+        font-size: 10px;
+    }
+    .subcontent {
+        font-size: 9px;
+    }
+    .footercontent {
+        font-size: 12px;
+    }
+    .section-block {
+        width: 80px;
+    }
 }
