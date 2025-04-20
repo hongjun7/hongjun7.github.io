@@ -61,7 +61,10 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
-h4 {
+h5 {
+    margin-bottom: 4px;
+}
+h5 {
     margin-bottom: 3px;
 }
 
@@ -72,20 +75,20 @@ ul {
 }
 
 .strong {
-    font-size: 15px;
+    font-size: 13px;
     margin-bottom: 5px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
 
 .li-item {
-    font-size: 15px;
+    font-size: 13px;
     margin-bottom: 2px;
     font-family: 'Roboto', sans-serif;
 }
 
 .div-item {
-    font-size: 15px;
+    font-size: 13px;
     margin: 0 0 0px 8px;
 }
 
@@ -117,7 +120,7 @@ ul {
 }
 
 .content {
-    font-size: 15px;
+    font-size: 13px;
     padding-bottom: 3px;
     font-weight: 400;
     padding-top: 3px;
@@ -125,7 +128,7 @@ ul {
 }
 
 .subcontent {
-    font-size: 13px;
+    font-size: 11px;
     padding-bottom: 3px;
     font-weight: 300;
     padding-top: -3px;
@@ -134,7 +137,7 @@ ul {
 
 /* custom */
 .pagefooter {
-    background: #555555;
+    background: #393939;
     position: relative;
     padding: 90px 0 90px 0;
 }
